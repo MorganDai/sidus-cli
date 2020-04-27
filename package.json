@@ -1,0 +1,43 @@
+{
+  "name": "generator-sidus-cli",
+  "version": "0.0.1",
+  "description": "a yeoman generator to start a webpack or gulp project quickly",
+  "main": "generator/app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorganDai/sidus-cli.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "webpack",
+    "gulp",
+    "scaffolding"
+  ],
+  "author": "morgan.dai@sidus.link",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MorganDai/sidus-cli/issues"
+  },
+  "homepage": "https://github.com/MorganDai/sidus-cli#readme",
+  "engines": {
+    "node": ">=8.9"
+  },
+  "devDependencies": {
+    "beeper": "^2.0.0",
+    "boxen": "^4.2.0",
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^9.0.0",
+    "ora": "^4.0.4",
+    "semver": "^7.3.2",
+    "update-notifier": "^4.1.0",
+    "yeoman-generator": "^4.9.0"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
