@@ -1,0 +1,23 @@
+{
+  "name": "{{projectName}}",
+  "version": "0.0.1",
+  "description": "{{projectDescription}}",
+  "author": "Morgan",
+  "private": true,
+  "scripts": {
+    "start": "yarn start",
+    "build:prod": "",
+    "build:dev": ""
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "mobx": "^5.15.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-router-dom": "^5.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "eslint": "^6.0.1"
+  }
+}

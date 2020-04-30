@@ -8,3 +8,6 @@
  * ->
  * [creator] 拷贝模板，安装依赖
  */
+
+ require('../lib/initialization')();
+ 
