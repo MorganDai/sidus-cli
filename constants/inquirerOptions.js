@@ -9,12 +9,12 @@ const PickTemplateOpts = [
     choices: [
       {
         key: 'pc-react-redux',
-        name: ' pc-react-redux',
+        name: 'pc-react-redux',
         value: 'pc-react-redux'
       },
       {
         key: 'pc-react-mobx',
-        name: ' pc-react-mobx',
+        name: 'pc-react-mobx',
         value: 'pc-react-mobx'
       },
       {

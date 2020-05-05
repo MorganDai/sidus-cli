@@ -9,7 +9,7 @@ function genDftPkgConfig (type) {
   }
 
   return config;
-}
+};
 
 module.exports = {
   genDftPkgConfig

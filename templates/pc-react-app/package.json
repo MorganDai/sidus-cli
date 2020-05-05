@@ -1,23 +1,24 @@
 {
   "name": "{{projectName}}",
-  "version": "0.0.1",
-  "description": "{{projectDescription}}",
-  "author": "Morgan",
-  "private": true,
+  "description": "project created by sidus-cli!",
   "scripts": {
-    "start": "yarn start",
-    "build:prod": "",
-    "build:dev": ""
+    "start": "yarn run start"
   },
   "dependencies": {
-    "axios": "^0.17.1",
-    "mobx": "^5.15.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "react-router-dom": "^5.1.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "eslint": "^6.0.1"
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.3",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^8.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0"
   }
 }
