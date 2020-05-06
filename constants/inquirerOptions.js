@@ -8,19 +8,14 @@ const PickTemplateOpts = [
     message: 'Please pick your template:',
     choices: [
       {
-        key: 'pc-react-redux',
-        name: 'pc-react-redux',
-        value: 'pc-react-redux'
+        key: 'react-webpack',
+        name: 'react-webpack',
+        value: 'react-webpack'
       },
       {
-        key: 'pc-react-mobx',
-        name: 'pc-react-mobx',
-        value: 'pc-react-mobx'
-      },
-      {
-        key: 'h5-vue-app',
-        name: 'h5-vue-app',
-        value: 'h5-vue-ap'
+        key: 'vue-webpack',
+        name: 'vue-webpack',
+        value: 'vue-webpack'
       }
     ]
   }
@@ -50,7 +45,7 @@ const CustomizeFeaturesOpts = [
   {
     type: 'checkbox',
     name: 'features',
-    message: `Check the features needed for your project: (Press ${chalk.gray('<Enter>')}` + 
+    message: `Check the features needed for your project: (Press ${chalk.gray('<Enter>')} ` +
     `to select, ${chalk.gray('<a>')} to toggle all, ${chalk.gray('<i>')} to invert selection)`,
     choices: [
       {
@@ -68,26 +63,11 @@ const CustomizeFeaturesOpts = [
         name: 'Progressive Web App (PWD) Support',
         value: 'pwa'
       },
-      // {
-      //   key: 'router',
-      //   name: 'Router',
-      //   value: 'router'
-      // },
-      // {
-      //   key: 'css-pre-processors',
-      //   name: 'CSS Pre-processors',
-      //   value: 'css-pre-processors'
-      // },
-      // {
-      //   key: 'unit-testing',
-      //   name: 'Unit Testing',
-      //   value: 'testing'
-      // },
-      // {
-      //   key: 'e2e-lint',
-      //   name: 'E2E Testing',
-      //   value: 'e2e-lint'
-      // }
+      {
+        key: 'css-pre-processors',
+        name: 'CSS Pre-processors',
+        value: 'css-pre-processors'
+      }
     ]
   }
 ];
@@ -118,10 +98,36 @@ const VueFeaturesOpts = [
   }
 ];
 
+const CSSProcessorOpts = [
+  {
+    type: 'list',
+    name: 'processor',
+    message: 'Pick a CSS pre-processor:',
+    choices: [
+      {
+        key: 'Sass/Scss',
+        name: 'Sass',
+        value: 'Sass'
+      },
+      {
+        key: 'Less',
+        name: 'Less',
+        value: 'Less'
+      },
+      {
+        key: 'Stylus',
+        name: 'Stylus',
+        value: 'Stylus'
+      }
+    ]
+  }
+];
+
 module.exports = {
   PickTemplateOpts,
   PresetOpts,
   CustomizeFeaturesOpts,
   ReactFeaturesOpts,
-  VueFeaturesOpts
+  VueFeaturesOpts,
+  CSSProcessorOpts
 }
